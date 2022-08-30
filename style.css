@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    min-width: 400px;
+}
+
+#input_text {
+    width: 100%;
+    border: 2px solid rgb(30, 220, 75);
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button {
+    min-width: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: rgb(30, 220, 75);
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(79, 246, 118);
+    cursor: pointer;
+}
+
+#delete_all {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(30, 220, 75);
+    color: rgb(30, 220, 75);
+}
